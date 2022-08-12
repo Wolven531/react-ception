@@ -23,7 +23,7 @@ services:
 
   reactception:
     image: reactception
-    container_name: webapp
+    container_name: reactception
     # depends_on:
     #   - mongo
     build:
