@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders view 1`] = `
+<DocumentFragment>
+  <div
+    class="app"
+    id="app"
+  >
+    <h1>
+      React 18
+    </h1>
+    <p>
+      App 1
+    </p>
+    <button>
+      App button
+    </button>
+    <hr />
+    <div
+      id="placeholder"
+    >
+      <div
+        class="app2"
+      >
+        <p>
+          App 2 (injected)
+        </p>
+        <button>
+          App 2 button
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

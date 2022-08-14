@@ -6,6 +6,6 @@ describe("App", () => {
   it("renders view", () => {
     const view = render(<App />);
 
-    expect(view).toBeTruthy();
+    expect(view.asFragment()).toMatchSnapshot();
   });
 });
